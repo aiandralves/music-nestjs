@@ -12,13 +12,13 @@
 
 Por fim, a aplicação estará disponível em `http://localhost:3333`
 
-## ✨ Exemplo do ENV
+### ✨ Exemplo do ENV
 
--   DB_TYPE=mysql
--   DB_HOST=localhost
--   DB_PORT=3306
--   DB_USERNAME=root
+-   DB_TYPE=
+-   DB_HOST=
+-   DB_PORT=
+-   DB_USERNAME=
 -   DB_PASSWORD=
--   DB_DATABASE=music_db
+-   DB_DATABASE=
 
 O arquivo do `insomnia` está na raiz do projeto com o nome `music-player.json`.
