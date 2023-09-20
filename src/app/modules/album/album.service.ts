@@ -37,7 +37,7 @@ export class AlbumService {
     }
 
     async update(id: number, data: AlbumDTO) {
-        const album = await this._albumRepository.findOne({ where: { id } });
+        const album = await this._albumRepository.findOneOrFail({ where: { id } });
         this._albumRepository.merge(album, data);
         return await this._albumRepository.save(album);
     }
